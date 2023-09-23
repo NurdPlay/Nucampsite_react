@@ -11,7 +11,7 @@ import {
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
-const [menuOpen, setMenueOpen] =useState(false);
+const [menuOpen, setMenuOpen] =useState(false);
 
   return (
     <Navbar dark color="primary" sticky="top" expand="md">
@@ -20,7 +20,7 @@ const [menuOpen, setMenueOpen] =useState(false);
         <h1 className="mt-1">NuCamp</h1>
       </NavbarBrand>
 
-      <NavbarToggler onClick={() => setMenueOpen(!menuOpen)} />
+      <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
       <Collapse isOpen={menuOpen} navbar>
         <Nav className="ms-auto" navbar>
           <NavItem>
