@@ -8,4 +8,4 @@ const Error = ({ errMsg }) => {
     )
 }
 
-export default Error;
+export default Error; 
