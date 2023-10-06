@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const CampsiteCard = ({ campsite }) => {
   const { id, image, name } = campsite;
+  console.log(campsite)
   return (
     <Link to={`${id}`}>
       <Card>
